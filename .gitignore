@@ -1,0 +1,10 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+.classpath
+.project
+.settings/
+.vscode/
+bin/
+frontend/node_modules/
