@@ -8,7 +8,7 @@ This is a project to be used as start point for a project using:
 4. Webpack
 5. npm
 
-## Requiriments 
+## Requirements
 
 Node.js  version v8.12.0
 
