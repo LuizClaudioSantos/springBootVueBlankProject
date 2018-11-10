@@ -1,12 +1,15 @@
 # Blank Project SpringBoot And Vue.js
 
-This is a project to be used as start point for a project using:
+This is a project to be used as start point for a project using vue.js as frontend framework and SpringBoot in the backend.
 
-1. SpringBoot Web
-2. Vue.js
+## Main Features
+
+1. Using the SpringBoot as framework in backend you bring to your project huge number of possibilities of a mature technology used by a lot of technologies in the world. 
+2. Vue.js is a an incrementally adoptable ecosystem that scales between a library and a full-featured framework, it will bring all features of a modern Javascript frontend to your project.
 3. Vuetify
 4. Webpack
 5. npm
+
 
 ## Requirements
 
