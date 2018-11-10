@@ -1,6 +1,6 @@
 # Blank Project SpringBoot And Vue.js
 
-This is a project to be used as start point for a project using vue.js as frontend framework and SpringBoot in the backend.
+This is a project to be used as start point for a project using vue.js as frontend framework and SpringBoot in the backend. The frontend part is base in the CJ video:[https://www.youtube.com/watch?v=5GfpGaHKfyo&t=782s] about Vuetify.
 
 ## Main Features
 
