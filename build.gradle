@@ -30,8 +30,15 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
 
-
 task webpack(type: Exec) {
-	executable 'buildFronTEnd.cmd'
+    executable 'npm'
+    args  'run', 'build'
 }
 
+task webpackDev(type: Exec) {
+    executable 'npm'
+    args  'run', 'dev'
+}
+
+bootRun { dependsOn webpackDev }
+build { dependsOn webpack }
