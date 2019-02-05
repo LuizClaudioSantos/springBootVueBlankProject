@@ -25,11 +25,17 @@ Just clone the repository and change the project as you wish, the frontend part 
 
 To build for deployment use the comand :
 ```
-gradlew webpack clean build 
+./gradlew clean build 
 ```
 
 For development use the comannd below in the folder frontend, then use start the SpringBoot in the  IDE that you like.
 ```
 npm run dev 
 ```
+
+Or use only 
+```
+./gradlew bootRun
+``` 
+which will use `webpackDev` task to start frontend using `npm run dev` before running spring boot app.
 
