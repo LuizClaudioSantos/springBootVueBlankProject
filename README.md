@@ -19,13 +19,13 @@ npm version 6.4.1
 
 JDK 1.9
 
-## Getting Your Hands Dirty
+## Getting Your Hands Dirt
 
 Just clone the repository and change the project as you wish, the frontend part of it is in the folder frontend.
 
 To build for deployment use the comand :
 ```
-gradlew webpack clean build 
+./gradlew clean build 
 ```
 
 For development use the comannd below in the folder frontend, then use start the SpringBoot in the  IDE that you like.
@@ -33,5 +33,9 @@ For development use the comannd below in the folder frontend, then use start the
 npm run dev 
 ```
 
-Or use only ```./gradlew bootRun``` which will use webpackDev task to start frontend using ```npm run dev``` before running spring boot app.
+Or use only 
+```
+./gradlew bootRun
+``` 
+which will use `webpackDev` task to start frontend using `npm run dev` before running spring boot app.
 
