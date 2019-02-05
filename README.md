@@ -19,7 +19,7 @@ npm version 6.4.1
 
 JDK 1.9
 
-## Getting Your Hands Dirt
+## Getting Your Hands Dirty
 
 Just clone the repository and change the project as you wish, the frontend part of it is in the folder frontend.
 
